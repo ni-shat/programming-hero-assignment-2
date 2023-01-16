@@ -4,6 +4,7 @@
 
 /* common styles-------- */
 body {
+    width: 100%;
     font-family: 'Work Sans';
     margin: 0;
     padding: 0;
@@ -32,17 +33,11 @@ body {
     cursor: pointer;
 }
 
-/* header & nav container -------- */
-header {
-    /* position: absolute;
-    left: 0;
-    top: 0; */
-    width: 100%;
-    /* background: rgba(255, 144, 14, 0.1); */
-}
+/* header STYLES -----------------------------
+ ----------------------------------------------- */
 
-/* nav styles------ */
-.hidden{
+/* nav styles------------------*/
+.hidden {
     display: none;
 }
 
@@ -50,7 +45,6 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid black; */
     color: #131313;
     width: 1180px;
     height: 50px;
@@ -82,7 +76,7 @@ nav h1 {
     font-size: 18px;
 }
 
-/* Header section ----- */
+/* Header section ---------------*/
 .header {
     display: flex;
     flex-direction: column;
@@ -132,15 +126,23 @@ nav h1 {
 .header .inner-container-2 img {
     width: 100%;
 }
+/* header STYLES - END----------------------- */
 
-/* feature section styles */
+
+/* main conatiner - start below the header & span to the end ---------
+----------------------------------------------------------------------*/
 main {
     width: 100%;
     background-color: white;
 }
-.feature-section{
+
+
+ /* Quick list of Our Features section - STYLES ----------------
+    --------------------------------------------------------------- */
+.feature-section {
     padding: 60px;
 }
+
 .features {
     width: 1180px;
     margin: auto;
@@ -167,7 +169,7 @@ main {
     flex-direction: column;
 }
 
-.feature-details { 
+.feature-details {
     width: 70%;
     height: auto;
     margin-left: 50px;
@@ -204,9 +206,11 @@ main {
     line-height: 26px;
     color: #727272;
 }
+/* Quick list of Our Features section - END*/
 
 
-/* Features you will love & enjoy section--*/
+/* Features you will love & enjoy section - STYLES -----------
+ -------------------------------------------------------------*/
 .feature-section-2nd {
     width: 1180px;
     margin: auto;
@@ -264,7 +268,7 @@ main {
 }
 
 .love-enjoy .items p {
-    white-space:pre-line;
+    white-space: pre-line;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -274,13 +278,11 @@ main {
 
 .feature-section-2nd .items p {
     color: #727272;
-}
-/* love&enjoy section- 1st inner container END */
+}  /* love & enjoy section- 1st inner container END */
 
-/* architect- 2nd inner container start */
-.architect {
+
+.architect {  /* architect- 2nd inner container START ---*/
     width: 60%;
-    /* border: 2px solid rgb(91, 203, 60); */
 }
 
 .architect img {
@@ -310,28 +312,26 @@ main {
 }
 
 .special-btn:hover {
-    cursor:auto;
+    cursor: auto;
     background-color: #FF900E;
     color: white;
-}
-/* architect- 2nd inner container end */
-/* Features you will love & enjoy section-----END
--------------------------------------------------*/
+}   /* architect- 2nd inner container end ---*/
+/* Features you will love & enjoy section - END */ 
 
 
-
-/* fact section */
+/* Some Facts section---------------------------------
+ ----------------------------------------------------- */
 .fact-section {
     width: 1180px;
     margin: auto;
-    /* background: #727272; */
 }
 
 .fact-section .title {
     width: 45%;
 }
 
-.fact-section .title h2, .sponsor-info h2{
+.fact-section .title h2,
+.sponsor-info h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 53px;
@@ -374,17 +374,21 @@ main {
     margin-top: 3px;
     margin-bottom: 0;
 }
+
 .facts-icon p {
     margin-top: 5px;
     margin-bottom: 0;
 }
+/* Some Facts section - END ------------------------- */
 
-/* Key challenges */
+/* Key challenges section ----------------------------
+----------------------------------------------------- */
 .key-challenges-section {
     width: 100%;
     height: 850px;
-    background-color:rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 }
+
 .key-challenges {
     width: 1180px;
     height: 650px;
@@ -393,22 +397,21 @@ main {
     justify-content: space-between;
     margin-top: 150px;
     margin-bottom: 90px;
-    padding: 105px;   
+    padding: 105px;
     border-radius: 8px;
 }
-/* there */
-.key-challenges-container-1{
-    width: 40%; 
+
+.key-challenges-container-1 {
+    width: 40%;
 }
 
 .key-challenges-container-2 {
-    width: 60%; 
-    /* border: 2px solid rgb(213, 1, 1); */
+    width: 60%;
 }
 
 .key-challenges-container-1 h1 {
     font-size: 60px;
-    color:black;
+    color: black;
     margin-top: 200px;
 }
 
@@ -419,12 +422,11 @@ main {
     row-gap: 20px;
 }
 
-.key-challenges .item{
+.key-challenges .item {
     width: 100%;
     height: 14%;
     display: flex;
     justify-content: flex-start;
-    /* column-gap: 10px; */
 }
 
 .key-challenges .box {
@@ -435,17 +437,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #FF900E; */
-    background-color:white;
-    color:#FF900E;
+    background-color: white;
+    color: #FF900E;
     box-shadow: 5px 5px 9px #b9b8b6;
     border-radius: 8px;
 }
 
 .box:hover {
     transform: translate(20px, 0px);
-    background-color:#FF900E;
-    /* box-shadow: 2px 5px 15px #ffbe74; */
+    background-color: #FF900E;
     color: black;
     transition: .5s;
     cursor: pointer;
@@ -464,16 +464,15 @@ main {
 }
 
 .item i {
-    /* background-color: #FF900E; */
     margin: auto;
     margin-right: 25px;
     font-size: 60px;
     color: #747373;
-    /* margin-right: 0; */
 }
+/* Key challenges section -END-------------------- */
 
-
-/* footer section styles */
+/* footer section styles --------------------------
+------------------------------------------------- */
 footer {
     width: 100%;
     margin: auto;
@@ -482,7 +481,6 @@ footer {
 
 .footer {
     width: 1180px;
-    /* background-color: #b7a9a9; */
     height: auto;
     margin: auto;
     padding-top: 100px;
@@ -498,14 +496,13 @@ footer {
 }
 
 .sponsor-info p {
-    color:#727272;
+    color: #727272;
     margin-top: -15px;
 }
 
 .sponsor-icon {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 100px; */
 }
 
 .sponsor-icon img {
@@ -524,16 +521,28 @@ footer {
     background-color: #FFF4E7;
 }
 
+/* for Mobile devices-------------------- */
 @media only screen and (max-width: 576px) {
-    /* set main body width to 100% */
-    body{
-        max-width: 100%;
+
+    body {
+        overflow-x: hidden;
     }
 
+    /* common styles-----------------------------*/
+    .primary-btn {
+        width: 100px;
+        height: 40px;
+        font-size: small;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+
+    /* header STYLES -----------------------------
+    ------------------------------------------- */
     header {
-        /* set header container height */
         height: 510px;
     }
+
     header nav {
         width: 100%;
         overflow: hidden;
@@ -548,23 +557,24 @@ footer {
     nav h1 {
         font-size: small;
     }
-    
+
     .right-nav-items {
         display: none;
     }
-    
+
     .hidden {
         display: block;
     }
-    
+
     .header {
         position: relative;
         z-index: 3;
         flex-direction: column-reverse;
         margin-top: -50px;
     }
-   
-    .header .inner-container-1, .header .inner-container-1 div{
+
+    .header .inner-container-1,
+    .header .inner-container-1 div {
         width: 100%;
     }
 
@@ -573,43 +583,39 @@ footer {
         line-height: 20px;
     }
 
-     .header .inner-container-1 p {
+    .header .inner-container-1 p {
         width: 90%;
         height: auto;
         margin: auto;
         margin-top: 15px;
         font-size: 14px;
         font-weight: 300;
-        line-height: 23px; 
+        line-height: 23px;
     }
-     
-    /* cover thumbnail container */
+
     .header .inner-container-2 {
         width: 100%;
-        font-size: small;  
-    }
-    
-    .primary-btn {
-        width: 100px;
-        height: 40px;
         font-size: small;
-        font-weight: 300;
-        margin-top: 5px;
-        /* z-index: 1; */
     }
+    /* header styles - END */
+
     
-    main{
+    /* main conatiner - start below the header & span to the end ----------*/
+    main {
         position: relative;
         top: 20px;
         z-index: 0;
     }
-    
-    .feature-section{
+
+    /* Quick list of Our Features section - STYLES ----------------
+    --------------------------------------------------------------- */
+
+    .feature-section {
         padding: 50px;
         padding-bottom: 15px;
     }
 
-    .features { 
+    .features {
         flex-direction: column;
         width: 100%;
         align-items: center;
@@ -621,31 +627,38 @@ footer {
 
     .feature-section .inner-container-2 {
         width: 100%;
-        margin-top: 10px; 
+        margin-top: 10px;
     }
-    
-    .feature-details { 
+
+    .feature-details {
         width: 100%;
     }
-    .feature-title, h3 {
+
+    .feature-title,
+    h3 {
         margin-bottom: -10px;
         margin-top: 35px;
         height: auto;
     }
+
     .feature-details .primary-btn {
         display: block;
         margin: auto;
     }
-    
+    /* Quick list of Our Features section - END*/
+
+
+    /* Features you will love & enjoy section - STYLES -----------
+    -------------------------------------------------------------*/
     .feature-section-2nd {
         width: 100%;
         margin-top: 5px;
         flex-direction: column;
     }
-    
+
     .love-enjoy {
-        width: 80%;  
-        margin: auto;     
+        width: 80%;
+        margin: auto;
     }
 
     .vl {
@@ -697,15 +710,20 @@ footer {
         line-height: 0px;
         margin-top: 0;
     }
-    
-    .fact-section{
+    /* Features you will love & enjoy section - END */ 
+
+    /* Some Facts section---------------------------------
+    ----------------------------------------------------- */
+    .fact-section {
         width: 100%;
     }
+
     .fact-section .title {
         width: 80%;
         margin: auto;
         margin-top: 30px;
     }
+
     .fact-section .title h2 {
         font-size: 17px;
     }
@@ -736,14 +754,19 @@ footer {
         margin-top: 3px;
         margin-bottom: 0;
     }
+
     .facts-icon p {
         font-size: 12px;
         margin-top: 5px;
     }
+
     .facts-icon img {
         width: 17%;
     }
+    /* Fact section - END */
 
+    /* Key challenges section-----------------------
+    ------------------------------------------------ */
     .key-challenges-section {
         height: 440px;
     }
@@ -783,15 +806,16 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .key-challenges-container-2 .box {
         width: 150px;
         font-size: 9px;
         font-weight: 500;
         padding: 5px;
         line-height: 12px;
-        /* text-align: center; */
     }
-    .key-challenges-container-2 .item i{
+
+    .key-challenges-container-2 .item i {
         font-size: 20px;
         margin-left: 0px;
         margin-right: 8px;
@@ -800,15 +824,18 @@ footer {
     .right-most-3 {
         margin-right: 0px;
     }
+
     .right-most-2 {
         margin-right: 50px;
     }
+
     .left-most {
         margin-right: 50px;
     }
+    /* Key challenges section - END */
 
-    /* there */
-
+    /* footer section -------------------------------
+    -------------------------------------------------*/
     .footer {
         width: 100%;
         margin-bottom: 30px;
@@ -820,9 +847,11 @@ footer {
         margin: auto;
         margin-bottom: 20px;
     }
+
     .sponsor-info h2 {
         font-size: 14px;
     }
+
     .sponsor-info p {
         font-size: 10px;
         line-height: 15px;
@@ -841,7 +870,5 @@ footer {
         line-height: 23px;
         padding: 0 15px;
     }
-    
+    /* footer section - END */
 }
-
-
