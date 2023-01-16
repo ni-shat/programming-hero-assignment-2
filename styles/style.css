@@ -4,7 +4,7 @@
 
 /* common styles-------- */
 body {
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Work Sans';
     margin: 0;
     padding: 0;
@@ -525,7 +525,7 @@ footer {
 @media only screen and (max-width: 576px) {
 
     body {
-        max-width: 100%;
+        overflow-x: hidden;
     }
 
     /* common styles-----------------------------*/
