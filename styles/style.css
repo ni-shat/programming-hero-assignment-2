@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgba(255, 144, 14, 0.1);
+    max-width: 100%;
 }
 
 .primary-btn {
@@ -510,21 +511,21 @@ footer {
 }
 
 .copyright {
-    width: 1180px;
     width: 100%;
     height: 100px;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFF4E7;
 }
 
-/* for Mobile devices-------------------- */
+/* for Mobile devic
+es-------------------- */
 @media only screen and (max-width: 576px) {
 
     body {
-        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     /* common styles-----------------------------*/
@@ -839,6 +840,7 @@ footer {
         width: 100%;
         margin-bottom: 30px;
         padding-top: 20px;
+
     }
 
     .sponsor-info {
@@ -862,12 +864,10 @@ footer {
     }
 
     .copyright {
-        width: 100%;
         height: 70px;
         font-size: 10px;
         text-align: center;
         line-height: 23px;
-        padding: 0 15px;
     }
     /* footer section - END */
 }
