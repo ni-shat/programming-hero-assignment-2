@@ -724,15 +724,18 @@ footer {
     }
 
     .key-challenges-section {
-        height: 600px;
+        height: 440px;
     }
 
     .key-challenges {
         width: 100%;
         flex-direction: column;
-        padding: 20px;
+        /* row-gap: 0;
+        column-gap: 0; */
+        padding: 0px;
         margin: 0;
     }
+
 
     .key-challenges-container-1 {
         width: 70%;
@@ -749,15 +752,20 @@ footer {
 
     .key-challenges-container-2 {
         width: 100%;
+        height: 300px;
         margin: auto;
+        margin-top: 30px;
+        margin-left: -18px;
     }
+
     .key-challenges-container-2 .item {
-        width: 70%;
+        width: 95%;
         height: 30px;
         font-size: 2px;
         font-weight: 300;
     }
     .key-challenges-container-2 .box {
+        width: 150px;
         font-size: 11px;
         font-weight: 500;
         padding: 5px;
@@ -769,18 +777,29 @@ footer {
     .right-most {
         margin-right: 100px;
     }
+
+    .left-most {
+        margin-right: 50px;
+    }
     /* there */
 
     .footer {
         width: 100%;
-        margin-bottom: 80px;
-        padding-top: 70px;
+        margin-bottom: 30px;
+        padding-top: 20px;
     }
 
     .sponsor-info {
         width: 80%;
         margin: auto;
+        margin-bottom: 20px;
+    }
+    .sponsor-info h2 {
         font-size: 14px;
+    }
+    .sponsor-info p {
+        font-size: 10px;
+        line-height: 15px;
     }
 
     .sponsor-icon {
@@ -798,11 +817,7 @@ footer {
     }
 
     .whitespaces {
-        height: 50px;
-    }
-
-    .hide {
-        display: none;
+        height: 20px;
     }
     
 }
